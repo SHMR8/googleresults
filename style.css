@@ -1,0 +1,200 @@
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+
+.logo {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+header{
+    display: flex;
+}
+input{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+.search{
+    margin-top:30px;
+    margin-left: 40px ;
+    font-size: 16px;
+    
+}
+p{
+    margin-left: 20px;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 26px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 650px;
+    box-shadow: 1px 1px 2px lightgray;
+}
+.search_input input{
+    flex: 1;
+    height: 30px;
+    margin-bottom: 28px;
+    margin-right: 25px;
+    border: none;
+    outline: none;
+}
+
+.search_input .material-icons {
+    color: gray;
+    
+}
+.settings{
+margin-top: 35px;
+margin-right: 10px;
+display: flex;
+justify-content: flex-end;
+width: 100%;
+
+}
+.settings span{
+    font-size: 25px;
+    margin-left: 18px;
+    color: #555;
+}
+.menu-topo{
+    display: flex;
+    margin-top: 20px;
+}
+#menu{
+margin-top: 15px ;
+list-style: none;
+font-size: 15px;
+
+}
+
+#menu li{
+    display: flex;
+    justify-content: flex-start;
+    display: inline;
+    text-decoration: none;
+   
+ 
+}
+#menu li a{
+    display: inline;
+    text-decoration: none;   
+    color: #555;
+    padding-right: 20px;
+}
+#menu li a .active{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+#menu li a:hover{
+   color: blue;
+   border-bottom: 1px solid blue;
+}
+
+button{
+    font-size: 15px;
+    color: #555;
+    margin-left: 15px;
+}
+.menu-topo .ferramentas{
+    border: none;
+    background-color: white;
+    font: 16px;
+}
+.menu-topo .ferramentas:hover{
+    border: 1px solid #555;
+    background-color: lightgrey;
+}
+
+.line_topo2{
+    margin-top: 10px;
+    margin-left: 40px;
+     font-size: 14px;
+     color: #555;
+}
+.container{
+  width: 650px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.news a{
+    text-decoration: none;
+}
+.news .site{
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 14px;
+}
+.news .tittle{
+ color: rgb(24, 24, 153);
+ font-size: 20px;
+ margin-bottom: 8px;
+}
+.news .resultado{
+ color: #555;
+ font-size: 15px;
+}
+
+
+
+
+.imagefooter{
+    margin-left: 130px;
+}
+
+
+
+.line_topo{
+width: 100%;
+height: 2px;
+border-bottom: 1px solid grey;    
+}
+
+.footer{
+margin-top: 10px;
+bottom: 0; 
+left: 0;
+background-color: #f2f2f2;
+width: 100%;
+color: #555; 
+font-size: 15px;  
+}
+
+.footer .line{
+display: flex;
+padding-left: 20px;
+}
+.footer .line1{
+    margin-top: 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.footer .line2{
+ margin-bottom: 9px;
+}
+.footer .line1 .line_top{
+    border-right: 1px solid #555;
+    margin-right: 9px;
+    padding-right: 9px;
+}
+.footer .line1 .line_top2{
+    margin-right: 20px;
+}
+.footer .line1 .line_top3{
+    color: blue;
+    text-decoration: underline;
+}
+.footer .line2 a{
+    margin-right: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    margin-top: 9px;
+    margin-bottom: 9px;   
+}
+
+
